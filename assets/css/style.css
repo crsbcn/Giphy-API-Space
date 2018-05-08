@@ -1,0 +1,27 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(../images/backing.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+}
+
+.text-center{
+    font-size: 75px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+label{
+    color: white;
+}

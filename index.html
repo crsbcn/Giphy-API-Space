@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Christopher Bacani, 2018">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./assets/javascript/syntax.js"></script>
+    <script type="text/javascript" src="./assets/javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="./assets/javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/npm.js"></script>
+
+    <title>Giphy API Search</title>
+</head>
+
+<body>
+    <h1 class="text-center">Giphy API Search</h1>
+    <br>
+    <p>Enter your search term to generate a button that will deliver top hits from Giphy for your query.</p>
+    <p>Feeling stuck? You can browse my favorite superheroes using the buttons below.</p>
+    <body>
+        
+            <!-- Buttons  -->
+            <div id="gifButtonsView" class="container">
+            </div>
+             <!-- Main Container  -->
+            <div class="container">
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                    <!-- Gifs  -->
+                    <div id="gifsView"></div>
+                </div>
+                 <!-- Action Submission Form  -->
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <form id="gif-form" role="form">
+                        <h2><legend>Superhero Submission</legend></h2>
+                        <div class="form-group">
+                            <label for="action-input">Add your Superhero below</label>
+                            <input type="text" id="action-input">
+                        </div>
+                        <input id="addGif" type="submit" value="Add your superhero" class="btn btn-primary">
+                        <input id="removeGif" type="submit" value="Remove last superhero" class="btn btn-primary">
+                    </form>    
+                </div>
+            </div>
+</body>
+
+</html>
